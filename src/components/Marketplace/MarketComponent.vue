@@ -10,7 +10,7 @@
         .col-6 {{marketDetail.authorities}}
 </template>
 <script>
-import { Market } from '~/models/Market'
+import  Market  from '~/models/Marketplace'
 export default {
   name: 'MarketComponent',
   props: {

@@ -12,7 +12,7 @@ q-page.q-pa-xl
 import { defineComponent } from 'vue'
 import Helloworld from '~/components/Helloworld.vue'
 import MarketComponent from '~/components/Marketplace/MarketComponent.vue'
-import { Marketplace } from '~/models/Market'
+import Marketplace  from '~/models/Marketplace'
 export default defineComponent({
   name: 'PageIndex',
   components: {

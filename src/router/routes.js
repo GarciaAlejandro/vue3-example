@@ -7,7 +7,7 @@ const routes = [
   {
     path: '/05-componentes-asincronos',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/ComponentesAsincronos.vue') }]
+    children: [{ path: '', component: () => import('pages/AsyncComponent.vue') }]
   },
 
   // Always leave this as last one,

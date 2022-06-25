@@ -1,4 +1,4 @@
-export class Marketplace {
+export default class Marketplace {
     key = undefined;
     id = undefined;
     label = undefined;
