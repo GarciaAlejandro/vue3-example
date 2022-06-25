@@ -1,5 +1,5 @@
 <template lang='pug'>
-div Component Works! {{msg}}
+div {{msg}}
 </template>
 <script>
 export default {
