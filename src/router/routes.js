@@ -25,6 +25,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/composition/index.vue') }]
   },
+  {
+    path: '/15-watchers',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/watchers/index.vue') }]
+  },
 
   // Always leave this as last one,
   // but you can also remove it
