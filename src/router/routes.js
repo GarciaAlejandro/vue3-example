@@ -46,6 +46,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/context/ContextIndex.vue') }]
   },
+  {
+    path: '/19-provide-inject',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/provider/ProviderIndex.vue') }]
+  },
   // Always leave this as last one,
   // but you can also remove it
   {
