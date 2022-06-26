@@ -20,6 +20,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/teleports/TeleportExample.vue') }]
   },
+  {
+    path: '/14-reactive-variables',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/composition/index.vue') }]
+  },
 
   // Always leave this as last one,
   // but you can also remove it
