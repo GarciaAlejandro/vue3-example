@@ -41,7 +41,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/props/PropsIndex.vue') }]
   },
-
+  {
+    path: '/18-context',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/context/ContextIndex.vue') }]
+  },
   // Always leave this as last one,
   // but you can also remove it
   {
