@@ -36,6 +36,12 @@ const routes = [
     children: [{ path: '', component: () => import('pages/computed/ComputedIndex.vue') }]
   },
 
+  {
+    path: '/17-props',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/props/PropsIndex.vue') }]
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {
