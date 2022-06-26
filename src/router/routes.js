@@ -15,6 +15,12 @@ const routes = [
     children: [{ path: '', component: () => import('pages/transitions/TransitionsExample.vue') }]
   },
 
+  {
+    path: '/07-teleports',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/teleports/TeleportExample.vue') }]
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {
